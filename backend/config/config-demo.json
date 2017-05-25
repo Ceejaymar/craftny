@@ -1,0 +1,24 @@
+{
+  "development": {
+    "username": "user name goes here",
+    "password": null,
+    "database": "craftny",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "username goes here",
+    "password": null,
+    "database": "craftny",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "username goes here",
+    "password": null,
+    "database": "craftny",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "DATABASE_URL": "production"
+  }
+}

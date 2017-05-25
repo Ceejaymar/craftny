@@ -2,8 +2,8 @@ const express = require('express')
 const app = express()
 const bodyparser = require('body-parser')
 const path = require('path')
-const db = require('./models')
-const routes = require('./routes')
+const db = require('./backend/models')
+const routes = require('./backend/routes')
 
 app.use(bodyparser.urlencoded({ extended: false }));
 app.use(bodyparser.json())
