@@ -5,6 +5,7 @@ html, body {
   padding: 0;
   font-family: 'Source Sans Pro', sans-serif;
 }
+
 /*------Base------*/
 
 
@@ -37,11 +38,17 @@ nav a {
   text-decoration: none;
   color: #8e8e8e;
   transition-duration: .3s;
+  padding-bottom: 5px;
+}
+
+nav a:focus {
+  border-bottom: 1px solid #8e8e8e;
 }
 
 nav a:hover {
   color: #626262;
 }
+
 /*------/Navbar------*/
 
 
@@ -97,6 +104,11 @@ nav a:hover {
   margin: 0;
 }
 
+/*------/Posts------*/
+
+
+
+/*------Buttons------*/
 button {
   width: 100px;
   border: none;
@@ -124,4 +136,4 @@ button {
 .remove-fav:hover {
   background-color: #ad4242;
 }
-/*------/Posts------*/
+/*------/Buttons------*/
